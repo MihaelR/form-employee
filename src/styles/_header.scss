@@ -1,0 +1,19 @@
+header.app-bar {
+  transform: translateZ(0);
+  background: $pink;
+}
+
+.container {
+  text-align: right;
+  background-color: #fdfdff;
+}
+
+.input-base {
+  &:hover {
+    background-color: #faf7f5;
+  }
+}
+
+.search-icon {
+  margin: 10px;
+}

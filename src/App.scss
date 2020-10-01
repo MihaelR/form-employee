@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  height: 100vh;
+}
+
+@import "styles/_variables";
+@import "styles/_sideMenu";
+@import "styles/_appMain";
+@import "styles/_header";
+@import "styles/_pageHeader";

@@ -1,0 +1,21 @@
+.page-header {
+  background-color: #fdfdff;
+  padding: 32px;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.header-icon {
+  display: inline-block;
+  padding: 16px;
+  transform: "translateZ(0)";
+}
+
+.page-title {
+  padding-left: 32px;
+}
+
+.page-subtitle {
+  padding-left: 32px;
+  opacity: 0.6;
+}

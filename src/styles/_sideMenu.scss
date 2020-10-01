@@ -1,0 +1,12 @@
+p {
+  color: $pink;
+}
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  width: 320px;
+  height: 100%;
+  background-color: $blue;
+}
