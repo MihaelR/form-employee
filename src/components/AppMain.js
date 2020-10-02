@@ -1,18 +1,13 @@
 import React, { Component } from "react";
 import Header from "./Header";
-import PageHeader from "./PageHeader";
-import PeopleOutlineIcon from "@material-ui/icons/PeopleOutline";
+import Employees from "./Employees";
 
 export class AppMain extends Component {
   render() {
     return (
       <div className="app-main">
         <Header></Header>
-        <PageHeader
-          title="Page header"
-          subTitle="page descriptstion"
-          icon={<PeopleOutlineIcon fontSize="large" />}
-        />
+        <Employees />
       </div>
     );
   }
